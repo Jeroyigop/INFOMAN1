@@ -1,0 +1,24 @@
+Task 3 DESCRIBE output capture
+==============================
+
+Status: NOT CAPTURED from MySQL.
+
+The local MySQL80 service reports Running and listens on port 3307. An unauthenticated
+connection as root returned:
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+No DESCRIBE output is fabricated in this file.
+
+After starting/configuring the MySQL server, run task3_ddl.sql, then run:
+
+mysql --host=127.0.0.1 --port=3307 --user=<your-mysql-user> --password
+USE toolshare_prelim;
+SHOW TABLES;
+DESCRIBE Member;
+DESCRIBE Storage_Location;
+DESCRIBE Tool;
+DESCRIBE Certification;
+DESCRIBE Borrowing;
+DESCRIBE Tool_Certification;
+DESCRIBE Member_Certification;
+
+Save the actual terminal output in this file before submission.

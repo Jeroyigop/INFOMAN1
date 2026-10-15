@@ -7,8 +7,8 @@ FROM employee
 GROUP BY department
 ORDER BY average_salary;
 
--- Task 4.1b: set this after inspecting Task 4.1a, then run the query.
-SET @salary_threshold = NULL;
+-- Task 4.1b: selected after inspecting the department averages.
+SET @salary_threshold = 70000;
 
 SELECT department,
        AVG(salary) AS average_salary

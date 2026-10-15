@@ -1,0 +1,36 @@
+mysql> notee
+mysql> SOURCE C:/Users/User/INFOMAN1/week8/task4.sql;
+Database changed
++-------------+----------------+
+| department  | average_salary |
++-------------+----------------+
+| Support     |   44028.571429 |
+| HR          |   62610.000000 |
+| Sales       |   71799.652778 |
+| Engineering |   75160.000000 |
+| Finance     |   79513.043478 |
++-------------+----------------+
+5 rows in set (0.01 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++-------------+----------------+
+| department  | average_salary |
++-------------+----------------+
+| Finance     |   79513.043478 |
+| Engineering |   75160.000000 |
+| Sales       |   71799.652778 |
++-------------+----------------+
+3 rows in set (0.00 sec)
+
++-------------+------------------+
+| department  | active_headcount |
++-------------+------------------+
+| Engineering |              104 |
+| Finance     |               52 |
+| Sales       |              116 |
+| Support     |               99 |
++-------------+------------------+
+4 rows in set (0.00 sec)
+
+mysql> notee
